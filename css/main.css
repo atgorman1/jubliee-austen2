@@ -1,0 +1,149 @@
+/****** Global Styles ******/
+body {
+  color: #5e5d5e;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+}
+h1,
+h2,
+h3 {
+  font-family: "lora", serif;
+}
+h1 {
+  font-size: 30px;
+  color: #7b7e54;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+p {
+  font-size: 20px;
+  line-height: 36px;
+  text-align: left;
+}
+.content-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/****** Header Styles ******/
+.homepage-hero {
+  background: url("../img/full-background.png"), #f9efef;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+header h1 {
+  width: 300px;
+  margin: 65px 0;
+  padding: 0 25px;
+  float: left;
+}
+header h2 {
+  clear: both;
+  font-size: 72px;
+  line-height: 80px;
+  padding-left: 25px;
+  margin: 20px 0;
+}
+header nav {
+  width: 800px;
+  float: right;
+  font-size: 18px;
+  margin: 75px 0;
+}
+header nav ul {
+  list-style: none;
+  text-align: right;
+  padding-right: 25px;
+  margin: 0;
+}
+header nav ul li {
+  padding-left: 80px;
+  display: inline-block;
+}
+header nav ul li a {
+  color: #727172;
+  text-decoration: none;
+}
+/****** About Styles ******/
+#about .content-wrapper {
+  padding: 80px 0;
+}
+#about h2 {
+  padding: 0 50px;
+}
+#about p {
+  float: left;
+  width: 500px;
+  margin: 0 50px;
+}
+/****** Skill Styles ******/
+#skills {
+  background: #f5f5f5;
+}
+#skills .content-wrapper {
+  padding: 115px 0;
+}
+#skills h2 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+#skills h3 {
+  margin: 30 0 20 0;
+}
+.skill-list {
+  width: 300px;
+  float: left;
+  margin: 0 50px;
+  text-align: center;
+}
+/****** Contact Styles ******/
+#contact {
+  background: #f9e9e9;
+  padding: 110px 0;
+}
+#contact-img {
+  width: 600px;
+  float: left;
+}
+#contact-img img {
+  width: 490px;
+  border: 5px solid white;
+  margin: 0 50px;
+}
+#contact-info {
+  width: 500px;
+  float: right;
+  padding-left: 100px;
+}
+#contact h2 {
+  margin: 30px 0;
+}
+#contact h3 {
+  padding-bottom: 5px;
+  margin: 0;
+}
+#contact ul {
+  padding: 0;
+  margin: 0;
+}
+#contact ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 50px;
+}
+.email {
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+  color: #5e5d5e;
+}
+#email-line {
+  padding-bottom: 20px;
+}
